@@ -8,10 +8,13 @@ import { FaGithubSquare } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import portraitImg from '@/../public/MohanKumarA-Portrait.jpg'
+import { useSectionInview } from "@/lib/hooks";
 
 export default function Intro() {
+    const { ref } = useSectionInview("Home");
+
     return (
-        <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+        <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className="flex items-center justify-center">
                 <div className="relative">
                     <motion.div
