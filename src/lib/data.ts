@@ -1,5 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
+import { LuGraduationCap } from "react-icons/lu";
 import currencyExchangeAppImg from "@/../public/Currency-Exchange.png";
 import libraryManagementSystemImg from "@/../public/Library-Management-System.png"
 
@@ -17,12 +18,12 @@ export const links = [
     hash: "#experience",
   },
   {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
     name: "Education",
     hash: "#education",
+  },
+  {
+    name: "Skills",
+    hash: "#skills",
   },
   {
     name: "Certifications",
@@ -45,7 +46,7 @@ export const experiencesData = [
     description:
       "Working as a Software Engineer. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - Current",
+    date: "September 2022 - Current",
   },
   {
     title: "Associate Consultant",
@@ -53,8 +54,20 @@ export const experiencesData = [
     description:
       "Started working as a Software Engineer",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
-  },
+    date: "August 2021 - August 2022",
+  }
+] as const;
+
+export const educationData = [
+  {
+    title: "Bachelor of Engineering",
+    location: "Global Academy of Technology | Bengaluru",
+    description:
+      `Specialized in Electronics and Communication Engineering
+      with 8.28/10 CPGA`,
+    icon: React.createElement(LuGraduationCap),
+    date: "August 2017 - August 2021 ",
+  }
 ] as const;
 
 export const projectsData = [
