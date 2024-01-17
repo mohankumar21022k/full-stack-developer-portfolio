@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import currencyExchangeAppImg from "@/../public/currency-exchange-app.png";
+import currencyExchangeAppImg from "@/../public/Currency-Exchange.png";
+import libraryManagementSystemImg from "@/../public/Library-Management-System.png"
 
 export const links = [
   {
@@ -67,16 +68,15 @@ export const projectsData = [
   {
     title: "LIBRARY MANAGEMENT SYSTEM",
     description: `
-      Pioneered microservices-based backend architecture for a web application using Node.js with the Express
-      Framework and MongoDB to demonstrate acquired knowledge.
+      Pioneered microservices-based backend architecture for a web application to demonstrate acquired knowledge.
     `,
     tags: ["Microservices", "TypeScript", "Node.js", "Express.js", "MongoDB"],
-    imageUrl: currencyExchangeAppImg,
+    imageUrl: libraryManagementSystemImg,
   },
   {
     title: "HAND GESTURE RECOGNITION USING CNN",
     description: `A simple hand gesture recognition model leveraging convolutional neural networks to process snapshots,
-      enabling seamless communication through sign language, Using Python, Keras and OpenCV.
+      enabling seamless communication through sign language.
     `,
     tags: ["Python", "Machine Learning", "CNN", "Keras", "OpenCV"],
     imageUrl: currencyExchangeAppImg,
