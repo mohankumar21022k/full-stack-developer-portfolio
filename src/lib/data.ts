@@ -1,8 +1,16 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import currencyExchangeAppImg from "@/public/Currency-Exchange.png";
-import libraryManagementSystemImg from "@/public/Library-Management-System.png"
+import currencyExchangeAppImg from "@/public/projects/Currency-Exchange.png";
+import libraryManagementSystemImg from "@/public/projects/Library-Management-System.png"
+import cnnImg from "@/public/projects/CNN.png"
+import gcpDevCertImg from '@/public/certifications/Google-Cloud-Professional-Developer.png';
+import ibmDataScienceCertImg from '@/public/certifications/IBM-Data-Science-Professional.png';
+import careerEssentialsCertImg from '@/public/certifications/Career-Essentional-In-GenerativeAI.jpg';
+import javaFullStackCertImg from '@/public/certifications/Java-Full-Stack.jpg';
+import awsCertImg from '@/public/certifications/AWS-Essentials.png';
+import nodejsCertImg from '@/public/certifications/NodeJS.jpg';
+import nestjsCertImg from '@/public/certifications/NestJS.png';
 
 export const links = [
   {
@@ -44,7 +52,7 @@ export const experiencesData = [
     title: "Consultant",
     location: "JK Tech | Bengaluru",
     description:
-      "Working as a Software Engineer. I also upskilled to the full stack.",
+      "Working as a Software Engineer. I also upskilling as a full stack developer.",
     icon: React.createElement(CgWorkAlt),
     date: "September 2022 - Current",
   },
@@ -52,7 +60,7 @@ export const experiencesData = [
     title: "Associate Consultant",
     location: "JK Tech | Bengaluru",
     description:
-      "Started working as a Software Engineer",
+      "Underwent comprehensive training in a wide range of technologies and Started working as a Software Engineer",
     icon: React.createElement(CgWorkAlt),
     date: "August 2021 - August 2022",
   }
@@ -92,7 +100,61 @@ export const projectsData = [
       enabling seamless communication through sign language.
     `,
     tags: ["Python", "Machine Learning", "CNN", "Keras", "OpenCV"],
-    imageUrl: currencyExchangeAppImg,
+    imageUrl: cnnImg,
+  },
+] as const;
+
+
+export const certificationsData = [
+  {
+    id: 1,
+    title: "Google Cloud Certified Professional Cloud Developer",
+    description:
+      "Google Cloud",
+    tags: ["GCP"],
+    imageUrl: gcpDevCertImg,
+  },
+  {
+    id: 2,
+    title: "Career Essentials in Generative AI by Microsoft and LinkedIn",
+    description: "LinkedIn Learning",
+    tags: ["Generative AI"],
+    imageUrl: careerEssentialsCertImg,
+  },
+  {
+    id: 3,
+    title: "IBM Data Science Professional",
+    description: "Coursera",
+    tags: ["Python", "Machine Learning"],
+    imageUrl: ibmDataScienceCertImg,
+  },
+  {
+    id: 4,
+    title: "Java Full-Stack Course",
+    description: "Pentagon Space",
+    tags: ["Java", "SpringBoot", "Hibernate"],
+    imageUrl: javaFullStackCertImg,
+  },
+  {
+    id: 6,
+    title: "AWS Essentials",
+    description: "A Cloud Guru",
+    tags: ["AWS"],
+    imageUrl: awsCertImg,
+  },
+  {
+    id: 7,
+    title: "NodeJS - The Complete Guide",
+    description: "Udemy",
+    tags: ["Node.js"],
+    imageUrl: nodejsCertImg,
+  },
+  {
+    id: 8,
+    title: "NestJS Fundamentals",
+    description: "Official NestJS Course",
+    tags: ["Nest.js"],
+    imageUrl: nestjsCertImg,
   },
 ] as const;
 
