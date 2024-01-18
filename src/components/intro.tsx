@@ -7,7 +7,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
-import portraitImg from '@/public/MohanKumarA-Portrait.jpg'
+import portraitImg from '@/../public/MohanKumarA-Portrait.jpg'
 import { useSectionInview } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 

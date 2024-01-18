@@ -1,16 +1,16 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import currencyExchangeAppImg from "@/public/projects/Currency-Exchange.png";
-import libraryManagementSystemImg from "@/public/projects/Library-Management-System.png"
-import cnnImg from "@/public/projects/CNN.png"
-import gcpDevCertImg from '@/public/certifications/Google-Cloud-Professional-Developer.png';
-import ibmDataScienceCertImg from '@/public/certifications/IBM-Data-Science-Professional.png';
-import careerEssentialsCertImg from '@/public/certifications/Career-Essentional-In-GenerativeAI.jpg';
-import javaFullStackCertImg from '@/public/certifications/Java-Full-Stack.jpg';
-import awsCertImg from '@/public/certifications/AWS-Essentials.png';
-import nodejsCertImg from '@/public/certifications/NodeJS.jpg';
-import nestjsCertImg from '@/public/certifications/NestJS.png';
+import currencyExchangeAppImg from "@/../public/projects/Currency-Exchange.png";
+import libraryManagementSystemImg from "@/../public/projects/Library-Management-System.png"
+import cnnImg from "@/../public/projects/CNN.png"
+import gcpDevCertImg from '@/../public/certifications/Google-Cloud-Professional-Developer.png';
+import ibmDataScienceCertImg from '@/../public/certifications/IBM-Data-Science-Professional.png';
+import careerEssentialsCertImg from '@/../public/certifications/Career-Essentional-In-GenerativeAI.jpg';
+import javaFullStackCertImg from '@/../public/certifications/Java-Full-Stack.jpg';
+import awsCertImg from '@/../public/certifications/AWS-Essentials.png';
+import nodejsCertImg from '@/../public/certifications/NodeJS.jpg';
+import nestjsCertImg from '@/../public/certifications/NestJS.png';
 
 export const links = [
   {
