@@ -20,8 +20,18 @@ const Card = ({ item }: any) => {
       }}
 
       layoutId={`card-${item.id}`}
-      className="inline-block w-full mb-4  bg-base-100 shadow-xl image-full cursor-pointer">
-      <Image src={item.imageUrl} alt='myas' />
+      className="group inline-block w-full mb-4  bg-base-100 shadow-xl image-full cursor-pointer">
+      <Image src={item.imageUrl} 
+        alt='my certificates' 
+        className='transition 
+        group-hover:scale-[1.04]
+        group-hover:-translate-x-3
+        group-hover:translate-y-3
+        group-hover:-rotate-2
+        group-even:group-hover:translate-x-3
+        group-even:group-hover:translate-y-3
+        group-even:group-hover:rotate-2
+        group-even:right-[initial] group-even:-left-40' />
     </motion.div>
   );
 };
