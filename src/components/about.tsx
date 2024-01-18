@@ -6,7 +6,7 @@ import SectionHeading from "./section-heading";
 import { useSectionInview } from "@/lib/hooks";
 
 export default function About() {
-    const { ref } = useSectionInview("About", 0.75);
+    const { ref } = useSectionInview("About", 0.90);
 
     return (
         <motion.section ref={ref}
