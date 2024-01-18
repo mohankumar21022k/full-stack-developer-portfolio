@@ -1,8 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import currencyExchangeAppImg from "@/../public/Currency-Exchange.png";
-import libraryManagementSystemImg from "@/../public/Library-Management-System.png"
+import currencyExchangeAppImg from "@/public/Currency-Exchange.png";
+import libraryManagementSystemImg from "@/public/Library-Management-System.png"
 
 export const links = [
   {

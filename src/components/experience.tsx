@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -14,7 +15,11 @@ export default function Experience() {
   const { ref } = useSectionInview("Experience");
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 sm:w-[1050px] mb-28 sm:mb-10">
+    <motion.section id="experience" ref={ref} 
+      className="scroll-mt-28 sm:w-[1050px] mb-28 sm:mb-10"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}>
       <SectionHeading>Professional experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
@@ -49,6 +54,6 @@ export default function Experience() {
           </React.Fragment>
         ))}
       </VerticalTimeline>
-    </section>
+    </motion.section>
   );
 }
