@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
+import portfolioImg from '@/../public/projects/Portfolio.png';
 import currencyExchangeAppImg from "@/../public/projects/Currency-Exchange.png";
 import libraryManagementSystemImg from "@/../public/projects/Library-Management-System.png"
 import cnnImg from "@/../public/projects/CNN.png"
@@ -80,6 +81,14 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "PERSONAL PORTFOLIO",
+    description: `A curated display about me, my professional and educational journey, 
+    featuring diverse projects and skills. Snapshot of my expertise in 
+    Software Development, showcasing a blend of creativity and technical proficiency.`,
+    tags: ["React", "Next.js"],
+    imageUrl: portfolioImg,
+  },
   {
     title: "CURRENCY EXCHANGE APPLICATION",
     description:
