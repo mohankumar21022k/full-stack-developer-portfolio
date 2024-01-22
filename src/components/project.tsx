@@ -31,7 +31,7 @@ export default function Project({
             <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden 
                 sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-back
                 dark:bg-white/10 dark:hover:bg-white/20">
-                <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-[0.5rem] sm:max-w-[50%] flex flex-col 
+                <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-[0.5rem] sm:max-w-[53%] flex flex-col 
                     h-full sm:group-even:ml-[18rem]">
                     <h2 className="text-[1.30rem] font-semibold">{title}</h2>
                     <p className="mt-1 pb-1 leading-relaxed text-gray-700 dark:text-white/70">
