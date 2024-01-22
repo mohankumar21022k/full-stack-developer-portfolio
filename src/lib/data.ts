@@ -86,7 +86,7 @@ export const projectsData = [
     description: `A curated display about me, my professional and educational journey, 
     featuring diverse projects and skills. Snapshot of my expertise in 
     Software Development, showcasing a blend of creativity and technical proficiency.`,
-    tags: ["React", "Next.js"],
+    tags: ["React", "Next.js", "Tailwind CSS", "Motion Framer"],
     imageUrl: portfolioImg,
   },
   {
