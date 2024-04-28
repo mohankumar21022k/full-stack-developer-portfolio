@@ -50,19 +50,26 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Senior Consultant",
+    location: "JK Tech | Bengaluru",
+    description:
+      `Elevating Web Experiences with Expertise and Insight.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "April 2024 - Current",
+  },
+  {
     title: "Consultant",
     location: "JK Tech | Bengaluru",
     description:
-      `Currently employed as a Software Engineer, I'm also upskilling as a full-stack developer, 
-      exposing myself to a wide array of learning opportunities.`,
+      `Exposed myself to a wide array of learning opportunities, I also upskilled as a full-stack developer.`,
     icon: React.createElement(CgWorkAlt),
-    date: "September 2022 - Current",
+    date: "September 2022 - March 2024",
   },
   {
     title: "Associate Consultant",
     location: "JK Tech | Bengaluru",
     description:
-      "Underwent comprehensive training in wide range of technologies and started working as a Software Engineer",
+      "Underwent comprehensive training in a wide range of technologies and started working on a FinTech project for an international client.",
     icon: React.createElement(CgWorkAlt),
     date: "August 2021 - August 2022",
   }
