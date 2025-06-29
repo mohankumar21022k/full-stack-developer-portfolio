@@ -15,7 +15,7 @@ export default function Intro() {
     const { ref } = useSectionInview("Home", 1);
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
     return (
-        <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+        <section ref={ref} id="home" className="mb-28 max-w-[58rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className="flex items-center justify-center">
                 <div className="relative">
                     <motion.div
@@ -53,10 +53,10 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}>
                 <span className="font-bold">Hello,</span> I'm <span className="font-bold"> Mohan</span>{" "}
-                from <span className="font-bold">India</span>.
-                I'm a{" "}<span className="font-bold">full-stack developer</span> with{" "}
-                <span className="font-bold">three years</span> of experience.<br />
-                I enjoy building <span className="italic">websites</span>.
+                from <span className="font-bold">India</span>.<br />
+                I'm a{" "}<span className="font-bold">software developer</span> with{" "}
+                <span className="font-bold">4 years</span> of experience.<br />
+                I enjoy building <span className="italic">webapps</span>.
             </motion.h1>
 
             <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

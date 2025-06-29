@@ -12,6 +12,9 @@ import javaFullStackCertImg from '@/../public/certifications/Java-Full-Stack.jpg
 import awsCertImg from '@/../public/certifications/AWS-Essentials.png';
 import nodejsCertImg from '@/../public/certifications/NodeJS.jpg';
 import nestjsCertImg from '@/../public/certifications/NestJS.png';
+import awardcoRecognitionImg from '@/../public/honors/awardco_recognition.png'; 
+import thankYouAwardImg from '@/../public/honors/thank_you_award.png';
+import noteOfAppreciationImg from '@/../public/honors/note_of_appreciation.png';
 
 export const links = [
   {
@@ -50,18 +53,26 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Engineer II",
+    location: "Lytx | Bengaluru",
+    description:
+      `Saving lives on the road with the power of video telematics.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "August 2024 - Current",
+  },
+  {
     title: "Senior Consultant",
     location: "JK Tech | Bengaluru",
     description:
       `Elevating Web Experiences with Expertise and Insight.`,
     icon: React.createElement(CgWorkAlt),
-    date: "April 2024 - Current",
+    date: "April 2024 - August 2024",
   },
   {
     title: "Consultant",
     location: "JK Tech | Bengaluru",
     description:
-      `Exposed myself to a wide array of learning opportunities, I also upskilled as a full-stack developer.`,
+      `Exposed to a wide range of learning opportunities, I also upskilled as a full-stack developer.`,
     icon: React.createElement(CgWorkAlt),
     date: "September 2022 - March 2024",
   },
@@ -180,6 +191,7 @@ export const skillsData = [
   "JavaScript",
   "HTML",
   "CSS",
+  "C#",
   "Node.js",
   "Nest.js",
   "Express",
@@ -187,6 +199,7 @@ export const skillsData = [
   "PostgreSQL",
   "MongoDB",
   "Git",
+  "Angular.js",
   "Angular",
   "AWS",
   "Google Cloud",
@@ -205,3 +218,29 @@ export const skillsData = [
   "Teamwork",
   "Effective Communication"
 ] as const;
+
+export const exploring = ['Blockchain development', 'SSIS', 'Apollo', 'Various System Architecture'] as const;
+
+export const honorsAndAwardsitems = [
+  {
+    id: 1,
+    url: thankYouAwardImg,
+    title: "Thank You Award",
+    at: "JK Tech",
+    description: "Honoured for outstanding dedication and performance in serving the organization"
+  },
+  {
+    id: 2,
+    url: noteOfAppreciationImg,
+    title: "Note of Appreciation",
+    at: "JK Tech",
+    description: "Recognized for balancing project demands and dedication to the Professional Cloud Developer Certification"
+  },
+  {
+    id: 3,
+    url: awardcoRecognitionImg,
+    title: "Applauz.Awardco Recognition",
+    at: "Lytx",
+    description: "Recognized for resolving a complex legacy issue affecting a critical functionality for a key client, showcasing strong ownership, technical expertise, and customer focus."
+  }
+] as const
