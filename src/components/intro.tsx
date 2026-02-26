@@ -55,7 +55,7 @@ export default function Intro() {
                 <span className="font-bold">Hello,</span> I'm <span className="font-bold"> Mohan</span>{" "}
                 from <span className="font-bold">India</span>.<br />
                 I'm a{" "}<span className="font-bold">software developer</span> with{" "}
-                <span className="font-bold">4 years</span> of experience.<br />
+                <span className="font-bold">4.5 years</span> of experience.<br />
                 I enjoy building <span className="italic">webapps</span>.
             </motion.h1>
 
@@ -88,7 +88,7 @@ export default function Intro() {
                 <a className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 
                     rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer
                     borderBlack dark:bg-white/10 dark:text-white/60"
-                    href="https://www.linkedin.com/in/mohan-kumar-a-5913a1202/"
+                    href="https://www.linkedin.com/in/mka21/"
                     target="_blank">
                     <BsLinkedin />
                 </a>
