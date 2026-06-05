@@ -39,7 +39,7 @@ const Card = ({ item }: any) => {
 export default function Certificate() {
   return (
     <>
-      <SectionHeading>My Certification</SectionHeading>
+      <SectionHeading>Credentials</SectionHeading>
       <div className='scroll-mt-28 sm:w-[1050px] mb-28 sm:mb-40'>
         <div className="columns-2 md:columns-3 xl:columns-4 gap-4">
           {certificationsData.map((item) => (

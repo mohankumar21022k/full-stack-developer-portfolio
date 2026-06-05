@@ -12,9 +12,11 @@ import javaFullStackCertImg from '@/../public/certifications/Java-Full-Stack.jpg
 import awsCertImg from '@/../public/certifications/AWS-Essentials.png';
 import nodejsCertImg from '@/../public/certifications/NodeJS.jpg';
 import nestjsCertImg from '@/../public/certifications/NestJS.png';
-import awardcoRecognitionImg from '@/../public/honors/awardco_recognition.png'; 
+import masteringAiCertImg from '@/../public/certifications/Mastering-AI-Assisted-Development.png';
+import awardcoRecognitionImg from '@/../public/honors/awardco_recognition.png';
 import thankYouAwardImg from '@/../public/honors/thank_you_award.png';
 import noteOfAppreciationImg from '@/../public/honors/note_of_appreciation.png';
+import driveAwardImg from '@/../public/honors/drive_award.png';
 
 export const links = [
   {
@@ -40,6 +42,10 @@ export const links = [
   {
     name: "Certifications",
     hash: "#certifications",
+  },
+  {
+    name: "Honors",
+    hash: "#honors",
   },
   {
     name: "Projects",
@@ -136,6 +142,13 @@ export const projectsData = [
 export const certificationsData = [
   {
     id: 1,
+    title: "Mastering AI-Assisted Development",
+    description: "LinkedIn Learning",
+    tags: ["AI", "Claude Code", "GitHub Copilot", "Productivity"],
+    imageUrl: masteringAiCertImg,
+  },
+  {
+    id: 2,
     title: "Google Cloud Certified Professional Cloud Developer",
     description:
       "Google Cloud",
@@ -143,21 +156,21 @@ export const certificationsData = [
     imageUrl: gcpDevCertImg,
   },
   {
-    id: 2,
+    id: 3,
     title: "Career Essentials in Generative AI by Microsoft and LinkedIn",
     description: "LinkedIn Learning",
     tags: ["Generative AI"],
     imageUrl: careerEssentialsCertImg,
   },
   {
-    id: 3,
+    id: 4,
     title: "IBM Data Science Professional",
     description: "Coursera",
     tags: ["Python", "Machine Learning"],
     imageUrl: ibmDataScienceCertImg,
   },
   {
-    id: 4,
+    id: 5,
     title: "Java Full-Stack Course",
     description: "Pentagon Space",
     tags: ["Java", "SpringBoot", "Hibernate"],
@@ -183,7 +196,7 @@ export const certificationsData = [
     description: "Official NestJS Course",
     tags: ["Nest.js"],
     imageUrl: nestjsCertImg,
-  },
+  }
 ] as const;
 
 export const skillsData = [
@@ -191,11 +204,11 @@ export const skillsData = [
   "JavaScript",
   "HTML",
   "CSS",
+  "Python",
   "C#",
   "Node.js",
   "Nest.js",
   "Express",
-  "Python",
   "PostgreSQL",
   "MongoDB",
   "Git",
@@ -212,6 +225,8 @@ export const skillsData = [
   "Microservices",
   "Tailwind",
   "Redux",
+  "RxJS",
+  "NgRx",
   "React",
   "Next.js",
   "Critical thinking",
@@ -224,23 +239,30 @@ export const exploring = ['Blockchain development', 'SSIS', 'Apollo', 'Various S
 export const honorsAndAwardsitems = [
   {
     id: 1,
-    url: thankYouAwardImg,
-    title: "Thank You Award",
-    at: "JK Tech",
-    description: "Honoured for outstanding dedication and performance in serving the organization"
+    url: driveAwardImg,
+    title: "DRIVE Award",
+    at: "Lytx",
+    description: "Received the DRIVE Award (2026 Q1) for consistently demonstrating a strong customer-focused mindset and delivering reliable, high-quality solutions with high-impact outcomes.",
   },
   {
     id: 2,
-    url: noteOfAppreciationImg,
-    title: "Note of Appreciation",
-    at: "JK Tech",
-    description: "Recognized for balancing project demands and dedication to the Professional Cloud Developer Certification"
+    url: awardcoRecognitionImg,
+    title: "Awardco Recognition",
+    at: "Lytx",
+    description: "Recognized for resolving a complex legacy issue affecting a critical functionality for a key client, showcasing strong ownership, technical expertise, and customer focus.",
   },
   {
     id: 3,
-    url: awardcoRecognitionImg,
-    title: "Applauz.Awardco Recognition",
-    at: "Lytx",
-    description: "Recognized for resolving a complex legacy issue affecting a critical functionality for a key client, showcasing strong ownership, technical expertise, and customer focus."
-  }
+    url: noteOfAppreciationImg,
+    title: "Note of Appreciation",
+    at: "JK Tech",
+    description: "Recognized for balancing project demands and dedication to the Professional Cloud Developer Certification.",
+  },
+  {
+    id: 4,
+    url: thankYouAwardImg,
+    title: "Thank You Award",
+    at: "JK Tech",
+    description: "Honored for outstanding dedication and performance in serving the organization.",
+  },
 ] as const
