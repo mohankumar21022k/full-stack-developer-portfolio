@@ -249,7 +249,7 @@ export const honorsAndAwardsitems = [
     url: awardcoRecognitionImg,
     title: "Awardco Recognition",
     at: "Lytx",
-    description: "Recognized for resolving a complex legacy issue affecting a critical functionality for a key client, showcasing strong ownership, technical expertise, and customer focus.",
+    description: "Acknowledged for resolving a complex legacy issue affecting a critical functionality for a key client, showcasing strong ownership, technical expertise, and customer focus.",
   },
   {
     id: 3,

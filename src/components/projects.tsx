@@ -17,7 +17,7 @@ export default function Projects() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}>
-      <SectionHeading>My projects</SectionHeading>
+      <SectionHeading>Projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>

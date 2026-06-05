@@ -30,7 +30,7 @@ export default function Skills() {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.175 }}>
-            <SectionHeading>My Skills</SectionHeading>
+            <SectionHeading>What I Build With</SectionHeading>
             <ul className='flex flex-wrap justify-center gap-2 text-lg text-gray-800'>
                 {
                     skillsData.map((skill, index) => (

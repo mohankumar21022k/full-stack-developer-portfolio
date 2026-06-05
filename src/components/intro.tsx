@@ -49,14 +49,20 @@ export default function Intro() {
                 </div>
             </div>
 
-            <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+            <motion.h1 className="mb-10 mt-4 px-4 font-medium !leading-[1.4] text-xl sm:!leading-[1.5] sm:text-[clamp(0.7rem,2.8vw,2rem)]"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}>
-                <span className="font-bold">Hello,</span> I'm <span className="font-bold"> Mohan</span>{" "}
-                from <span className="font-bold">India</span>.<br />
-                I'm a{" "}<span className="font-bold">software developer</span> with{" "}
-                <span className="font-bold">4.5 years</span> of experience.<br />
-                I enjoy building <span className="italic">webapps</span>.
+                <span className="block sm:whitespace-nowrap">
+                    <span className="font-bold">Hello,</span> I'm <span className="font-bold">Mohan</span>{" "}
+                    from <span className="font-bold">India</span>.
+                </span>
+                <span className="mt-1 block sm:mt-0 sm:whitespace-nowrap">
+                    I'm a <span className="font-bold">software developer</span> with{" "}
+                    nearly <span className="font-bold">5 years</span> of experience.
+                </span>
+                <span className="mt-1 block sm:mt-0 sm:whitespace-nowrap">
+                    I love crafting <span className="italic">web applications</span> that make a difference.
+                </span>
             </motion.h1>
 
             <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
