@@ -49,7 +49,14 @@ export default function About() {
                     video games, cinematic worlds, charcoal sketching, books on trading
                 </span>
                 , and{" "}
-                <span className="font-medium">the occasional melody on the keyboard</span>.
+                <span className="font-medium">the occasional melody on the keyboard</span>. I'm also
+                deep into{" "}
+                <span className="font-medium">forex/gold trading (XAUUSD)</span>—which sounds
+                unrelated until you realize it's taught me more about{" "}
+                <span className="font-medium">
+                    risk management, pattern recognition, and staying calm under pressure
+                </span>{" "}
+                than anything else.
             </p>
         </motion.section>
     );
