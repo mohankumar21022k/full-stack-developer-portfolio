@@ -7,7 +7,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
-import portraitImg from '@/../public/MohanKumarA-Portrait.jpg'
+import portraitImg from '@/../public/MohanKumarA-Portrait.png'
 import { useSectionInview } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -58,7 +58,7 @@ export default function Intro() {
                 </span>
                 <span className="mt-1 block sm:mt-0 sm:whitespace-nowrap">
                     I'm a <span className="font-bold">software developer</span> with{" "}
-                    nearly <span className="font-bold">5 years</span> of experience.
+                    <span className="font-bold">5 years</span> of experience.
                 </span>
                 <span className="mt-1 block sm:mt-0 sm:whitespace-nowrap">
                     I love crafting <span className="italic">web applications</span> that make a difference.
